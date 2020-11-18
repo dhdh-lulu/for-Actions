@@ -16,7 +16,7 @@ jobs:
       - name: 'Get Date'
         #run: echo "::set-env name=REPORT_DATE::$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')"
         env:
-          REPORT_DATE: $(date '+%Y-%m-%d %T')
+          REPORT_DATE: date '+%Y-%m-%d %T'
         run: echo $REPORT_DATE
       - name: 'Send mail'
         uses: dawidd6/action-send-mail@master
