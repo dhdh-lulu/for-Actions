@@ -28,6 +28,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: BeiJing Weather Report (每日天气)
           body: file://result.html
-          to: zhanglinfeng@bochtec.com
+          to: zhanglinfeng5221@163.com
           from: GitHub Actions
           content_type: text/html
