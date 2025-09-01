@@ -1,6 +1,7 @@
 name: 'GitHub Actions Weather Bot'
 
 on:
+  workflow_dispatch: # 添加手动触发支持
   push:
   schedule:
     - cron: '0 21 * * *'
